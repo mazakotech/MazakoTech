@@ -130,7 +130,7 @@ const Services = () => {
               </p>
             </div>
             <div>
-              <Image src="SEO.png" alt="" className="shadow-white shadow-lg" />
+              <Image src="seo.png" alt="" className="shadow-white shadow-lg" />
             </div>
           </div>
         </SwiperSlide>

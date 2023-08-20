@@ -11,7 +11,7 @@ const config: Config = {
       backgroundImage: {
         pic: "url('/../pic.jpg')",
         pac: "url('/../pac.png')",
-        mazako: "url('/../mazakoo.png')",
+        mazako: "url('mazakoo.png')",
       },
       colors: {
         dGray: "#50514f",
