@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mazako Tech",
-  description: "Web Develpers & Web Designers",
+  description: "A gateway to innovative web solutions.",
   icons: {
     icon: "favicon.ico",
   },
