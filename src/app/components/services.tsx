@@ -99,12 +99,15 @@ const Services = () => {
               Web Design
             </h2>
             <div className=" absolute top-0 p-3  opacity-0 group-hover:opacity-100 bg-black text-white duration-500 inset-0 ">
-              Elevate your brand aesthetics with captivating web design that
-              makes a lasting impression. Our designers are masters at combining
-              aesthetics with usability, creating interfaces that are not only
-              visually appealing but also intuitively navigable. Every pixel is
-              meticulously placed to evoke the right emotions and encourage
-              engagement.
+              <p>
+                {" "}
+                Elevate your brand aesthetics with captivating web design that
+                makes a lasting impression. Our designers are masters at
+                combining aesthetics with usability, creating interfaces that
+                are not only visually appealing but also intuitively navigable.
+                Every pixel is meticulously placed to evoke the right emotions
+                and encourage engagement.
+              </p>
             </div>
             <div>
               <Image src="wbd.png" alt="" className="shadow-white shadow-lg" />
