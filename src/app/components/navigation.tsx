@@ -159,42 +159,39 @@ const Navbar = () => {
                     )}
                   </Disclosure>
                 )} */}
-                {item.submenu.length < 0 &&
-                  (item.link ? (
-                    <>
-                      {" "}
-                      <Link
-                        href={item.url2}
-                        className={`${
-                          !sideopen && "mx-auto"
-                        } flex  w-18 mx-auto  gap-2`}
-                      >
-                        <span>{item.icon}</span>
-                        <span
-                          className={`${!sideopen && "hidden"} text-center`}
-                        >
-                          {item.title}
-                        </span>
-                      </Link>{" "}
-                    </>
-                  ) : (
-                    <>
-                      <a
-                        href={`#${item.url}`}
-                        className={`${
-                          !sideopen && "mx-auto"
-                        } flex duration-500 w-18 mx-auto  text-xl gap-2`}
-                        onClick={() => {
-                          setSideopen(!sideopen);
-                        }}
-                      >
-                        <span className="">{item.icon}</span>
-                        <span className={`${!sideopen && "hidden"} `}>
-                          {item.title}
-                        </span>
-                      </a>
-                    </>
-                  ))}
+                {item.link ? (
+                  <>
+                    {" "}
+                    <Link
+                      href={item.url2}
+                      className={`${
+                        !sideopen && "mx-auto"
+                      } flex  w-18 mx-auto  gap-2`}
+                    >
+                      <span>{item.icon}</span>
+                      <span className={`${!sideopen && "hidden"} text-center`}>
+                        {item.title}
+                      </span>
+                    </Link>{" "}
+                  </>
+                ) : (
+                  <>
+                    <a
+                      href={`#${item.url}`}
+                      className={`${
+                        !sideopen && "mx-auto"
+                      } flex duration-500 w-18 mx-auto  text-xl gap-2`}
+                      onClick={() => {
+                        setSideopen(!sideopen);
+                      }}
+                    >
+                      <span className="">{item.icon}</span>
+                      <span className={`${!sideopen && "hidden"} `}>
+                        {item.title}
+                      </span>
+                    </a>
+                  </>
+                )}
               </li>
             );
           })}
