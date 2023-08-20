@@ -130,7 +130,7 @@ const Navbar = () => {
                               </span>{" "}
                             </span>
                           </Disclosure.Button>
-                          {item.submenu.map((subitem, index) => {
+                          {/* {item.submenu.map((subitem, index) => {
                             return (
                               <div key={index}>
                                 <Link
@@ -150,7 +150,7 @@ const Navbar = () => {
                                 </Link>
                               </div>
                             );
-                          })}
+                          })} */}
                         </div>
                       </>
                     )}
