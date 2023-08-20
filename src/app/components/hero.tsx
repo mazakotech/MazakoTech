@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative flex content-center items-center justify-center bg-mazako  mt-8 bg-top bg-contain md:bg-contain lg:bg-auto  sm:h-[450px] md:h-[500px] h-[300px] bg-no-repeat">
+    <div className="relative flex content-center items-center justify-center bg-mazako mt-8 bg-top bg-contain md:bg-contain lg:bg-auto  sm:h-[450px] md:h-[500px] h-[300px] bg-no-repeat">
       <div className="container relative mx-auto">
         <h1 className=" text-stone-100 font-sans font-bold  absolute top-12 cs:top-20 md:top-28 left-10 text-xl md:text-3xl lg:left-96 sm:text-2xl sm:left-60 pr-2  lg:text-5xl">
           Your <em className="text-red-600">Gateway</em> to innovative{" "}
