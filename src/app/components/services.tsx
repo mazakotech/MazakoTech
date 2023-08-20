@@ -82,9 +82,9 @@ const Services = () => {
               <p>
                 Words have the power to shape perceptions and drive action. Our
                 skilled content writers craft compelling narratives that
-                resonate with your target audience. Whether it's engaging blog
-                posts, persuasive product descriptions, or informative website
-                copy, we create content that sparks interest and fosters
+                resonate with your target audience. Whether it&apos;s engaging
+                blog posts, persuasive product descriptions, or informative
+                website copy, we create content that sparks interest and fosters
                 connections.
               </p>
             </div>
@@ -122,10 +122,10 @@ const Services = () => {
             <div className=" absolute top-0 p-3  opacity-0 group-hover:opacity-100 bg-black text-white duration-500 inset-0 ">
               <p>
                 Achieve prominence in the digital landscape with our strategic
-                SEO services. We optimize your website's visibility, ensuring
-                that it ranks high in search engine results. By fine-tuning
-                keywords, enhancing on-page elements, and developing an
-                authoritative backlink profile, we help your website attract
+                SEO services. We optimize your website&apos;s visibility,
+                ensuring that it ranks high in search engine results. By
+                fine-tuning keywords, enhancing on-page elements, and developing
+                an authoritative backlink profile, we help your website attract
                 organic traffic and reach its full potential.
               </p>
             </div>

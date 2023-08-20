@@ -9,7 +9,7 @@ import Link from "next/link";
 import { GiHamburgerMenu, GiTireIronCross } from "react-icons/gi";
 
 import { LiaBarsSolid } from "react-icons/lia";
-
+import Image from "next/image";
 const Navbar = () => {
   const [sideopen, setSideopen] = useState(false);
   const Menu = [
@@ -76,7 +76,8 @@ const Navbar = () => {
         /> */}
 
         <div className={`d-flex`}>
-          <img
+          <Image
+            alt="logo"
             src="mazakologo.png"
             className={`h-12 w-44  text-6xl bg-white  
           curor-pointer absolute top-4 float-left `}
