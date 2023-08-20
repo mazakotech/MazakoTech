@@ -30,6 +30,7 @@ const Navbar = () => {
       url: "services",
       spacing: false,
       link: false,
+      submenu: false,
     },
     {
       title: "Reach out to us",
@@ -37,6 +38,7 @@ const Navbar = () => {
       url: "content",
       spacing: false,
       link: false,
+      submenu: false,
     },
     {
       title: "Our Works",
@@ -44,6 +46,7 @@ const Navbar = () => {
       url: "ourWork",
       spacing: false,
       link: false,
+      submenu: false,
     },
   ];
   return (
