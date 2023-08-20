@@ -31,6 +31,7 @@ const Navbar = () => {
       spacing: false,
       link: false,
       submenu: [],
+      url2: "",
     },
     {
       title: "Reach out to us",
@@ -39,6 +40,7 @@ const Navbar = () => {
       spacing: false,
       link: false,
       submenu: [],
+      url2: "",
     },
     {
       title: "Our Works",
@@ -47,6 +49,7 @@ const Navbar = () => {
       spacing: false,
       link: false,
       submenu: [],
+      url2: "",
     },
   ];
   return (
@@ -104,10 +107,10 @@ const Navbar = () => {
                   item.spacing ? "mt-9" : "mt-2"
                 }`}
               >
-                {item.submenu.length > 0 && (
+                {/* {item.submenu.length > 0 && (
                   <Disclosure>
                     {({ open }) => (
-                      /* Use the `open` state to conditionally change the direction of an icon. */
+                      
                       <>
                         <div className="w-18 mx-auto">
                           <Disclosure.Button className="w-18 mx-auto text-md flex ">
@@ -130,7 +133,7 @@ const Navbar = () => {
                               </span>{" "}
                             </span>
                           </Disclosure.Button>
-                          {/* {item.submenu.map((subitem, index) => {
+                          {item.submenu.map((subitem, index) => {
                             return (
                               <div key={index}>
                                 <Link
@@ -150,12 +153,12 @@ const Navbar = () => {
                                 </Link>
                               </div>
                             );
-                          })} */}
+                          })}
                         </div>
                       </>
                     )}
                   </Disclosure>
-                )}
+                )} */}
                 {item.submenu.length < 0 &&
                   (item.link ? (
                     <>
