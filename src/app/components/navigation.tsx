@@ -30,7 +30,7 @@ const Navbar = () => {
       url: "services",
       spacing: false,
       link: false,
-      submenu: false,
+      submenu: [],
     },
     {
       title: "Reach out to us",
@@ -38,7 +38,7 @@ const Navbar = () => {
       url: "content",
       spacing: false,
       link: false,
-      submenu: false,
+      submenu: [],
     },
     {
       title: "Our Works",
@@ -46,7 +46,7 @@ const Navbar = () => {
       url: "ourWork",
       spacing: false,
       link: false,
-      submenu: false,
+      submenu: [],
     },
   ];
   return (
@@ -104,7 +104,7 @@ const Navbar = () => {
                   item.spacing ? "mt-9" : "mt-2"
                 }`}
               >
-                {item.submenu && (
+                {item.submenu.length > 0 && (
                   <Disclosure>
                     {({ open }) => (
                       /* Use the `open` state to conditionally change the direction of an icon. */
@@ -156,7 +156,7 @@ const Navbar = () => {
                     )}
                   </Disclosure>
                 )}
-                {!item.submenu &&
+                {item.submenu.length < 0 &&
                   (item.link ? (
                     <>
                       {" "}
