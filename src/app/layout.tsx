@@ -7,9 +7,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Mazako Tech",
   description: "Web Develpers & Web Designers",
-  icons: {
-    icon: "Logo.png",
-  },
 };
 
 export default function RootLayout({
