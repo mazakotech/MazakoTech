@@ -17,9 +17,9 @@ const Footer = () => {
       </h3>
       <div className="container px-6 pt-6">
         <div className="mb-6 flex justify-center gap-2">
-          {/* <Link href="">
+          <Link href="https://www.instagram.com/mazakotech/">
             <FiInstagram className="text-3xl text-red-600" />
-          </Link> */}
+          </Link>
           <Link href="https://www.linkedin.com/company/mazako-tech">
             <AiOutlineLinkedin className="text-3xl text-red-600" />
           </Link>

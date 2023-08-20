@@ -29,13 +29,16 @@ const services = () => {
               Web Development
             </h2>
             <div className=" absolute top-0 p-3  opacity-0 group-hover:opacity-100 bg-black text-justify text-white duration-500 inset-0 ">
-              Harness the power of modern web technologies with our exceptional
-              web development services. Our skilled developers specialize in
-              React, Tailwind CSS, Node.js, Express, and WordPress, ensuring
-              that your website is not only visually stunning but also highly
-              functional and user-friendly. From dynamic single-page
-              applications to feature-rich e-commerce platforms, we build web
-              solutions that resonate with your audience.
+              <p>
+                Harness the power of modern web technologies with our
+                exceptional web development services. Our skilled developers
+                specialize in React, Tailwind CSS, Node.js, Express, and
+                WordPress, ensuring that your website is not only visually
+                stunning but also highly functional and user-friendly. From
+                dynamic single-page applications to feature-rich e-commerce
+                platforms, we build web solutions that resonate with your
+                audience.
+              </p>
             </div>
             <div>
               <Image
@@ -52,11 +55,13 @@ const services = () => {
               Web Hosting & Domain
             </h2>
             <div className=" absolute top-0 p-3  opacity-0 group-hover:opacity-100 bg-black text-justify text-white duration-500 inset-0 ">
-              Experience seamless performance with our reliable web hosting
-              solutions. We ensure that your website is accessible, secure, and
-              fast-loading, providing an optimal user experience. Secure your
-              digital footprint with our domain registration services,
-              establishing a unique and memorable online identity.
+              <p>
+                Experience seamless performance with our reliable web hosting
+                solutions. We ensure that your website is accessible, secure,
+                and fast-loading, providing an optimal user experience. Secure
+                your digital footprint with our domain registration services,
+                establishing a unique and memorable online identity.
+              </p>
             </div>
             <div>
               <Image
@@ -74,11 +79,14 @@ const services = () => {
               Content Writing
             </h2>
             <div className=" absolute top-0 p-3  opacity-0 group-hover:opacity-100 bg-black text-white duration-500 inset-0 ">
-              Words have the power to shape perceptions and drive action. Our
-              skilled content writers craft compelling narratives that resonate
-              with your target audience. Whether it's engaging blog posts,
-              persuasive product descriptions, or informative website copy, we
-              create content that sparks interest and fosters connections.
+              <p>
+                Words have the power to shape perceptions and drive action. Our
+                skilled content writers craft compelling narratives that
+                resonate with your target audience. Whether it's engaging blog
+                posts, persuasive product descriptions, or informative website
+                copy, we create content that sparks interest and fosters
+                connections.
+              </p>
             </div>
             <div>
               <Image src="cw.png" alt="" className="shadow-white shadow-lg" />
@@ -109,12 +117,14 @@ const services = () => {
               SEO
             </h2>
             <div className=" absolute top-0 p-3  opacity-0 group-hover:opacity-100 bg-black text-white duration-500 inset-0 ">
-              Achieve prominence in the digital landscape with our strategic SEO
-              services. We optimize your website's visibility, ensuring that it
-              ranks high in search engine results. By fine-tuning keywords,
-              enhancing on-page elements, and developing an authoritative
-              backlink profile, we help your website attract organic traffic and
-              reach its full potential.
+              <p>
+                Achieve prominence in the digital landscape with our strategic
+                SEO services. We optimize your website's visibility, ensuring
+                that it ranks high in search engine results. By fine-tuning
+                keywords, enhancing on-page elements, and developing an
+                authoritative backlink profile, we help your website attract
+                organic traffic and reach its full potential.
+              </p>
             </div>
             <div>
               <Image src="SEO.png" alt="" className="shadow-white shadow-lg" />

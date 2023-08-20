@@ -14,7 +14,7 @@ import "./styles.css";
 // import required modules
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-export default () => {
+const banner = () => {
   return (
     <>
       <section className="bg-[rgba(255,255,255,.5)] mx-auto" id="ourWork">
@@ -101,3 +101,5 @@ export default () => {
     </>
   );
 };
+
+export default banner;

@@ -3,7 +3,7 @@ import { FaReact, FaWordpress } from "react-icons/fa";
 import { SiJavascript, SiHtml5, SiTailwindcss, SiCss3 } from "react-icons/si";
 import React, { useState } from "react";
 
-export default () => {
+const infiniteslide = () => {
   const [first, setfirst] = useState(false);
 
   return (
@@ -74,3 +74,5 @@ export default () => {
     </div>
   );
 };
+
+export default infiniteslide;
