@@ -5,14 +5,14 @@ import Form from "./components/form";
 import Services from "./components/services";
 import Banner from "./components/banner";
 import Footer from "./components/footer";
-import Particles from "./components/particles";
+import Particle from "./components/particles";
 import Top from "./components/top";
 
 export default function Home() {
   return (
     <main className="scroll-smoot">
       <Top />
-      <Particles />
+      <Particle />
       <Navigation />
       <Hero />
       <Infiniteslide />

@@ -9,7 +9,7 @@ import "./styles.css";
 import { Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 
-const services = () => {
+const Services = () => {
   return (
     <div className="font-sans leading-2" id="services">
       <Swiper
@@ -136,4 +136,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

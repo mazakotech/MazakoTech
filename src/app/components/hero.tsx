@@ -1,6 +1,6 @@
 import React from "react";
 
-const hero = () => {
+const Hero = () => {
   return (
     <div className="relative flex content-center items-center justify-center bg-mazako  mt-8 bg-top bg-contain md:bg-contain lg:bg-auto  sm:h-[450px] md:h-[500px] h-[300px] bg-no-repeat">
       <div className="container relative mx-auto">
@@ -24,4 +24,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;

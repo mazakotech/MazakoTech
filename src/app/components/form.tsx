@@ -1,6 +1,6 @@
 import React from "react";
 
-const form = () => {
+const Form = () => {
   return (
     <form
       className="w-full max-w-lg mx-auto font-sans"
@@ -85,4 +85,4 @@ const form = () => {
   );
 };
 
-export default form;
+export default Form;

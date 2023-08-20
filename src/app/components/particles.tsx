@@ -101,7 +101,7 @@ const options: ISourceOptions = {
   },
 };
 
-const particles = () => {
+const Particle = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
     console.log(engine);
 
@@ -128,4 +128,4 @@ const particles = () => {
   );
 };
 
-export default particles;
+export default Particle;
