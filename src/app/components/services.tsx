@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./styles.css";
 import { Pagination, Navigation } from "swiper/modules";
+import Image from "next/image";
 
 const services = () => {
   return (
@@ -37,7 +38,11 @@ const services = () => {
               solutions that resonate with your audience.
             </div>
             <div>
-              <img src="wbdev.png" alt="" className=" shadow-white shadow-lg" />
+              <Image
+                src="wbdev.png"
+                alt=""
+                className=" shadow-white shadow-lg"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -54,7 +59,7 @@ const services = () => {
               establishing a unique and memorable online identity.
             </div>
             <div>
-              <img
+              <Image
                 src="hosting.png"
                 alt=""
                 className=" shadow-white shadow-lg"
@@ -76,7 +81,7 @@ const services = () => {
               create content that sparks interest and fosters connections.
             </div>
             <div>
-              <img src="cw.png" alt="" className="shadow-white shadow-lg" />
+              <Image src="cw.png" alt="" className="shadow-white shadow-lg" />
             </div>
           </div>
         </SwiperSlide>
@@ -94,7 +99,7 @@ const services = () => {
               engagement.
             </div>
             <div>
-              <img src="wbd.png" alt="" className="shadow-white shadow-lg" />
+              <Image src="wbd.png" alt="" className="shadow-white shadow-lg" />
             </div>
           </div>
         </SwiperSlide>
@@ -112,7 +117,7 @@ const services = () => {
               reach its full potential.
             </div>
             <div>
-              <img src="SEO.png" alt="" className="shadow-white shadow-lg" />
+              <Image src="SEO.png" alt="" className="shadow-white shadow-lg" />
             </div>
           </div>
         </SwiperSlide>
